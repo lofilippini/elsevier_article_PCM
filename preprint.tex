@@ -7,6 +7,7 @@
 \usepackage{makecell}
 \usepackage{subfig}
 \usepackage{booktabs}
+\usepackage{float}
  
 \journal{Energy and Built Environment}
 
@@ -48,6 +49,7 @@ This paper investigates the thermal and energy performance of a building with di
 \item Comparison between phase change materials and ASHRAE 90.1 default thermal insulation in future climates
 \item Assessment of building performance with different envelope configurations in climate change projections
 \item Behavior of phase change materials in changing and hotter climate conditions 
+\item Phase change materials can be effective in today's climate, but might not work as intended in future warmer climates
 \end{highlights}
 
 \begin{keyword}
@@ -99,11 +101,11 @@ The use of phase change materials depends mainly on the desired operating temper
     \item Economical: low cost, commercial availability.
     \item Others: low environmental impact, non-polluting, recyclable, compatibility with the capsule material.
 \end{itemize}
-The application of PCM in the context of civil construction can be carried out through different methods, as mentioned by Liu et al. (2018) \cite{liu2018review}: direct incorporation, immersion, encapsulation and shape stabilization. Among these, encapsulation is the most promising method for buildings, according to the same authors. The form of encapsulation can also be divided according to the scale of the capsule: nanoencapsulated (1 to 1000 $\mu m$), microencapsulated (1 to 1000 $\mu m$) and macroencapsulated (>1000 $\mu m$), according to Paroutoglou et al. (2019). Techniques involving low capsule scales (< 1000 $\mu m$) incorporate the materials directly into the construction elements, changing the thermal properties of the final system. Macroencapsulation, according to Liu et al. (2018) \cite{liu2018review}, is the most promising application in the context of buildings (for illustrative purposes, see Appendix A for macroencapsulation alternatives).
+The application of PCM in the context of civil construction can be carried out through different methods, as mentioned by Liu et al. (2018) \cite{liu2018review}: direct incorporation, immersion, encapsulation and shape stabilization. Among these, encapsulation is the most promising method for buildings, according to the same authors. The form of encapsulation can also be divided according to the scale of the capsule: nanoencapsulated (1 to 1000 $\mu m$), microencapsulated (1 to 1000 $\mu m$) and macroencapsulated ($>$1000$\mu m$), according to Paroutoglou et al. (2019) \cite{paroutoglou2019pcm}. Techniques involving low capsule scales ($<$1000$\mu m$) incorporate the materials directly into the construction elements, changing the thermal properties of the final system. Macroencapsulation, according to Liu et al. (2018) \cite{liu2018review}, is the most promising application in the context of buildings (for illustrative purposes, see Appendix A for macroencapsulation alternatives).
 
 \subsection{Classification of phase change materials}
 The basic classification of phase change materials depends on the physical states in which the material will operate, these being solid-solid, solid-gas, solid-liquid and liquid-gas (PAROUTOGLOUet al., 2019) \cite{paroutoglou2019pcm}. In the context of civil construction, the implementation of solid-liquid PCM is aimed at, due to the operating temperature range of a large portion of materials with this behavior. Figure \ref{fig 1} presents a temperature scale and operating enthalpies of different PCMs.  
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.70\textwidth]{pcm working ranges}
     \caption{Operating enthalpy and melting temperature ranges of solid-liquid PCM}
@@ -285,7 +287,7 @@ defining guidelines constructive.
 
 In order to evaluate the impact of the envelope in different climatic contexts, cities representing extreme bioclimatic zones 1 and 8, with antagonistic climates, are selected based on the population of each one (IBGE, 2021). Table \ref{tb 1} condenses this information.
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \begin{tabular}{|c c l|}
 \hline
@@ -309,7 +311,7 @@ in studies, projections and monitoring of the climate and its anomalies. Data fr
 Regarding climate data for building simulations in the selected cities, Scheller et al. (2015) carried out a study comparing three types of existing climate files for Brazilian cities: TRY (Test Reference Year), SWERA (Solar and Wind Energy Resource Assessment) and INMET (National Institute of Meteorology). In the aforementioned work, several meteorological variables from the archives were evaluated. Through this, it was possible to identify that the INMET files had data acquisition failures in some periods, linked to possible problems in the automatic sensors used. Regarding SWERA data, few Brazilian cities have climate files of this type. Therefore, the use of TRY files becomes necessary; files of this type consider a real year within a 10-year period, treating it as a reference year, without temperature extremes. However, according to Crawley and Lawrie (2015) \cite{crawley2015rethinking}, TRY files do not present complete information about solar radiation data, information that was supplied through a new type of file, the Typical Meteorological Year or TMY. This, in addition to having more information than TRY, works with meteorological data from a longer interval, building a fictitious typical year, with months from different years within a period of 15 years or more analyzed. The authors discourage the use of TRY files and recommend using TMY.
 
 Given the considerations and recommendations of Crawley and Lawrie (2015) \cite{crawley2015rethinking} and the World Meteorological Organization (WMO, 2021), one should opt for TMY type files from older periods or a larger sample of years, to ensure the reliability of the process. of morphing with the projection of realistic weather behaviors. In this sense, we chose to use the TMYx files, which construct typical meteorological years based on the entire existing collection period, made available by Brazilian Building Labeling Program (2020). The original climate files are resented in Table \ref{tb 2}, together with the data sampling period.
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \begin{tabular}{|l l l|}
 \hline
@@ -322,20 +324,20 @@ Rio de Janeiro, RJ & \makecell[l]{BRA\_RJ\_Rio.de.Janeiro-\\Santos.Dumont.AP.837
 \label{tb 2}
 \end{table}
 
-However, it is important to highlight that the original climate files represent a typical meteorological year within the period described in Table \ref{tb 2}, considering all years in the sample. From the beginning of measurements until today, climate change has been part of climate behavior, given that the typical meteorological year encompasses a range of years with this type of behavior, ie, the most recent ones (see Appendix C), and therefore tends to incorporate the climatological profile with the effects of climate change. Thus, as Jentsch et al. attest. (2013), developers of the tool, and Belcher, Hacker and Powell (2005), developers of the method, it is possible to expect a slight overestimation of the effects of climate change when
+However, it is important to highlight that the original climate files represent a typical meteorological year within the period described in Table \ref{tb 2}, considering all years in the sample. From the beginning of measurements until today, climate change has been part of climate behavior, given that the typical meteorological year encompasses a range of years with this type of behavior, ie, the most recent ones (see Appendix C), and therefore tends to incorporate the climatological profile with the effects of climate change. Thus, as Jentsch et al. attest (2013) \cite{jentsch2013transforming}, developers of the tool, and Belcher, Hacker and Powell (2005) \cite{belcher2005constructing}, developers of the method, it is possible to expect a slight overestimation of the effects of climate change when
 applying the morphing methodology based on more recent climate files, since the technique maintains the behavior of the original data.
 
 \subsection{Energy model}
 ASHRAE Standard 90.1 entitled “Energy Standards for Buildings Except Low Rise Residential Buildings” (ASHRAE, 2019), determines the guidelines for the construction and simulation of thermoenergetic reference models, or baseline models, applicable for all climatic regions. The standard defines the thermal parameters of surfaces, minimum efficiency of air conditioning systems, lighting densities and HVAC systems suitable for construction typologies, according to the floor area and their locations. The thermoenergetic model of this study is developed and made available, in its entirety, by the United States Department of Energy (DOE, 2022b), through the Building Energy Codes Program (BECP), which, together with other typologies, are widely used in several studies, being structured in compliance with the aforementioned Standard 90.1. The set of prototypes represents about 75\% of the floor area of new buildings in all North American climates.
 
 This monograph chooses to use the average office building model (Figure \ref{fig 5}), typology that generally has integrated projects and systems that have a greater focus on the application of thermal comfort and energy efficiency measures, in addition to, due to the building's operating behavior, being subject to greater thermal loads during critical periods. The models used in bioclimatic zones are identical regarding the type of air conditioning systems, internal loads and building operation, with constructive variations and details of the HVAC system, in accordance with ASHRAE Standard 90.1 (2019). The construction system of the building is steel frame, which, depending on the same standard, requires the use of thermal insulation on the walls. The maximum thermal transmittance value (U-factor or just $U$) for the walls and roof of the models, in each climate zone, are listed in Table \ref{tb 3}. None of the parameters mentioned, with the exception of climatic conditions, are changed between simulations of the same bioclimatic zone.
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.70\textwidth]{geometry}
     \caption{Building's geometric model.}
     \label{fig 5}
 \end{figure}%
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \begin{tabular}{|c c l|}
         \hline
@@ -351,7 +353,7 @@ The office building has three floors with 5 thermal zones each, classified as pe
 
 In detail, each of the floors is served by a self-contained rooftop unit (or PACU, Packaged Air-Conditoning Unit) where the machine has, contained in a single housing, the entire air supply and conditioning system (heating and cooling coils) to serve the floors. The cooling system is through direct vapor expansion, while the heating system is through natural gas, systems with efficiencies of, respectively, 340\% (COP) and 81\%; each thermal zone has an individual heating system through an electrical resistance at the inflation terminals, with unitary efficiency.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \subfloat[\centering Orientation.]{{\includegraphics[width=5cm]{thermal zones} }}%}
     \qquad
@@ -369,7 +371,7 @@ The selected PCM is modeled, in EnergyPlus, using class \textit{MaterialProperty
 The thickness of the PCM used on each surface is equivalent to the thickness of the insulation applied in each of the respective construction systems, since the aim is to geometrically replace one with the other. According to the models developed by DOE (2022b), the thermal resistances ($R$) of the insulators used in each model are visible in Table \ref{tb 4}; It should be noted that, in thermoenergetic models, insulators are represented only through their thermal resistance values equivalent, without the definition of a physical material, that is, without thermal mass.
 
 Also according to DOE (2022c), the main thermal insulators used in civil construction are cellulose, glass fiber and mineral fiber, which have a similar thermal conductivity ($k$) and can be approximated by $0.04$ $W/mK$ (POPESCU, 2017 ). The theoretical thickness of the insulating material ($e$) is given by multiplying the thermal resistance ($R$) and the thermal conductivity of that material. This thickness is also the thickness of the PCM that will replace the insulator. Table \ref{tb 4} illustrates integer values – given the need for discreet encapsulation – of the thickness of the PCM applied to each surface according to its climate zone; to illustrate envelope constructions, see Appendix E.
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \begin{tabular}{|c cc cc|}
         \hline
@@ -392,7 +394,7 @@ Emphasizing phase change materials, the characteristic and predominant clockwise
 
 In relation to the building, the behaviors of the total monthly energy consumption of the HVAC system are extracted – electrical and thermal, in thermal resistances or direct expansion and gas heater, respectively – already defined in the model, divided by the conditioned floor area, metric represented by Energy Use Intensity (EUI) or Energy Use Intensity, with the aim of incorporating the partial load profile that air conditioning equipment can present and studying the impact of the envelope on the typology in question. Table 5.1 summarizes the results of annual Energy Use Intensity with the air conditioning systems for each of the envelopes in the different simulated climate scenarios. The acronyms “NOM”, “INS” and “PCM” represent the envelopes no material, resistive thermal insulator and phase change material, respectively.
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
     \begin{tabular}{|l c c c|}
         \hline
@@ -418,7 +420,7 @@ presents the highest EUI values in all simulations.
 
 \subsection{Results for Bioclimatic Zone 1/ASHRAE 3A (Curitiba, PR)}
 Through Figure \ref{fig 7}, it is possible to observe the monthly behavior of the Energy Use Intensity with the HVAC systems for the city of Curitiba; Considering the typical meteorological year, it is necessary to use heating, especially in the case of the envelope without any material.
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{EUI comp Curitiba}
     \caption{Monthly behavior of the EUI with HVAC systems in Curitiba, PR (ZB1/3A)}
@@ -436,7 +438,7 @@ of almost 1 kWh/m² in 2080.
 \subsubsection{North facade (Thermal Zone 3)}
 Figure \ref{fig 8} illustrates the net heat balance on the inner face of the surface ($Q_{net}$) denoting monthly heat gains by the thermal zone when the balance is positive and heat losses by the zone when the balance is negative; the balance represents the sum of the hourly heat fluxes on the internal face of the facade during the building's occupation. It is observed that, for all simulations, the heat balance on the surface with the phase change material is always negative, denoting the removal of heat from the thermal zone during its operation, which reduces the cooling load; This occurs due to the coincidence of the air temperature in the zone with the phase change temperature of the material. During the winter months, especially in Figure \ref{fig 8} (a), energy consumption for this envelope decreases, which does not mean that there is a demand for heating, but rather that the thermal zone, through solar gains and loads internal, together with thermal insulation, manages to maintain comfortable levels of
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{zn3 curitiba}
     \caption{Monthly net heat balance across the north facade in Curitiba, PR (ZB1/3A)}
@@ -445,7 +447,7 @@ Figure \ref{fig 8} illustrates the net heat balance on the inner face of the sur
 
 The envelope without any material does not show characteristic behavior during the typical meteorological year, having one of the lowest values for the heat balance in the month of June ($-2.15$ $kWh/m^2$), the month with the highest EUI, of $3.93$ $kWh/m^2$; the month of October, outside the intense cold season, during the spring period, presents the lowest value for the heat balance ($-2.86 $$kWh/m^2$), and, consequently, one of the highest EUI recorded for this envelope ($2.95$ $kWh/m^2$). The absence of insulating material causes intense heat gains in climate projection simulations, frequently exceeding 5 $kWh/m^2$ and 7.5 $kWh/m^2$ monthly, reaching maximums of 8.10 $kWh/m^2$ in March 2050 and $10.42$ $kWh/m^2$ in May 2080, due to the intensification of direct solar irradiation during this period. The application of the resistive thermal insulator guarantees the maintenance of low levels of heat gains and losses, as observed in all simulations.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{tq zn3 curitiba}
     \caption{Hourly curves of Mean Radiant Temperature in Thermal Zone 3 and Heat Flow by conduction on the internal face of the north facade during the typical winter week in Curitiba, PR (ZB1/3A).}
@@ -461,7 +463,7 @@ For the climate projections of 2050 and 2080 (Figure \ref{fig 9} (b) and (c)), t
 during winter, which is translated by the high heat flux in the case without any material in the envelope; in an antagonistic way, the reduction in external temperatures during the night produces temperature gradients of almost 6°C for this envelope, which becomes much more susceptible and sensitive to changes in the weather
 and local climate, presenting averages of 22. 09°C in the typical year and 24.32 and 25.20°C in the respective future climates, which corroborates the change in the EUI pattern presented by the building with this envelope.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{pcm zn3 curitiba}
     \caption{Hourly behavior of the physical state of the PCM applied to the north façade during a typical winter week in Curitiba, PR (ZB1/3A).}
@@ -474,7 +476,7 @@ the material during the typical winter week, defined by the TMYx file as being b
 \subsubsection{South facade (Thermal Zone 1)}
 When looking at Figure \ref{fig 11}, as in thermal zone 3, for the typical meteorological year (Figure \ref{fig 11} busy periods on weekdays, with a weekly average of 24.06°C. During the typical week (a)) and for the projection for 2050 (b), the thermal zone loses heat intensely, with the minimum in June of the TMY, approximately $-6$ $kWh/m^2$; In the same way as in thermal zone 3, heat loss through the wall – in cases with PCM – decreases in the winter months, denoting the reduction in demand for spontaneous cooling of the thermal zone.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{zn1 curitiba}
     \caption{Monthly net heat balance across the south facade in Curitiba, PR (ZB1/3A)}
@@ -483,7 +485,7 @@ When looking at Figure \ref{fig 11}, as in thermal zone 3, for the typical meteo
 
 Due to heat loss through the envelope on the south facade when no material is applied, the heating load overlaps the cooling load, justifying the longer EUI period for this application; annual heat losses, during the typical meteorological year, reach almost $-49$ $kWh/m^2$. The envelopes with phase change material and thermal insulation, during winter, present similar EUI and heat balance, especially on the south-facing facade. Outside this period, with emphasis on simulated climate projections, the PCM envelope has a better capacity to remove heat from the thermal zone, reducing the cooling load – annually, the PCM facade presents average heat losses of $-16.45$ $kWh/m^2$, while the thermal insulator is $-7.28$ $kWh/m^2$, around 56\% lower. The impact of the absence of solar radiation is easily observed through the monthly heat losses through the facade without insulating material.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{tq zn1 curitiba}
     \caption{Hourly curves of Mean Radiant Temperature in Thermal Zone 1 and Heat Flow by conduction on the internal face of the south facade during the typical winter week in Curitiba, PR (ZB1/3A).}
@@ -496,7 +498,7 @@ night hours of the week, especially in Figure \ref{fig 12} (a). Such passive hea
 
 Regarding the physical state of the material, shown in Figure \ref{fig 13}, for the climate described by the TMYx file (Figure \ref{fig 13} (a)), the predominance of the solid or partially solid state can be noted during much of the typical winter week, maintaining a intermediate state for the period. This can be justified by the low heat fluxes during this interval, given the low external temperature and the proximity of the internal temperature to the PCM operating point. In this sense, the core of the material functions as a barrier for heat transfer between the external environment and the internal environment during phase change; When considering climate changes in the simulations, the PCM presents more evident daily phase change cycles, especially exposed Figure \ref{fig 13} (c), indicating that the performance of the material improves in future climates for this facade, which also corroborates the intensification of heat removal from the thermal zone in these simulations.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{pcm zn1 curitiba}
     \caption{Hourly behavior of the physical state of the PCM applied to the south façade during a typical winter week in Curitiba, PR (ZB1/3A).}
@@ -506,7 +508,7 @@ Regarding the physical state of the material, shown in Figure \ref{fig 13}, for 
 \subsubsection{Roof (Plenum)}
 Due to the thickness of the insulating material on the roof (17 cm), both resistive and phase chang material, the heat flow is extremely low, resulting in monthly heat balances close to zero in these roofs, as can be seen in Figure \ref{fig 14}.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{plenum curitiba}
     \caption{Monthly net heat balance across the roof facade in Curitiba, PR (ZB1/3A)}
@@ -515,14 +517,14 @@ Due to the thickness of the insulating material on the roof (17 cm), both resist
 
 In contrast, the absence of any material makes heat transfer across the surface much more sensitive to temperature gradients; comparing the envelope in question with those that have the application of insulating material, it is visible that the plenum exchanges heat with the external environment in an intense way, in particular, at the height of summer and winter: for the typical year, as the envelopes with PCM and insulation present, respectively, annual heat gains of $2.12$ $kWh/m^2$ and $4.57$ $kWh/m^2$ and annual heat losses of $-3.07$ $kWh/m^2$ and $-5.11$ $kWh/m^2$, the roof without any material applied records annual gains of $47.53$ $kWh/m^2$ and losses of $-34.82$ $kWh/m^2$.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{tq plenum curitiba}
     \caption{Hourly curves of Mean Radiant Temperature in the plenum and Heat Flow by conduction on the internal face of the roof facade during the typical winter week in Curitiba, PR (ZB1/3A).}
     \label{fig 15}
 \end{figure}
 Between May and August of the TMY, the building without material on the roof records the highest heat losses, with a minimum of $-3.68$ $kWh/m^2$ in June, and the highest EUI values with the HVAC system. The low temperature of the return air in the plenum, which, when mixed with the external air, demands more thermal energy from the heating coils to reach the setpoint; in certain months of autumn (April and May) and spring (September and October), for the climate represented by the TMYx file, and also June and July of the climate projection for 2050, present heat balances close to zero, justifying by thermal balance between the surface faces, depending on external temperatures, solar radiation and return air temperature in the plenum. The large heat gains in the summer period stand out for both climate projections, which exceed $5$ $kWh/m^2$.
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{pcm plenum curitiba}
     \caption{Hourly behavior of the physical state of the PCM applied to the roof surface during a typical winter week in Curitiba, PR (ZB1/3A).}
@@ -537,7 +539,7 @@ The characteristic physical state of the PCM on the roof – Figure \ref{fig 16}
 
 Naturally, the typology studied, in the climate of bioclimatic zone 8, presents higher monthly EUI values when compared to other climatic regions (see Figure \ref{fig 17}).
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{EUI comp rj}
     \caption{Monthly behavior of the EUI with HVAC systems in Rio de Janeiro, RJ (ZB8/1A)}
@@ -552,7 +554,7 @@ EUI of the simulated building without any insulating material, being, annually, 
 Observing Figure \ref{gif 18}, the absence of insulating material again causes high monthly heat gains
 throughout the year, resulting annually in $95.01$ $kWh/m^2$, $131.11$ $kWh/m^2$ and 143.19 $kWh/m^2$ for respective simulated climates.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{zn3 rj}
     \caption{Monthly net heat balance across the north facade in Rio de Janeiro, RJ (ZB8/1A)}
@@ -563,7 +565,7 @@ The phase change material produces monthly heat losses between May and November 
 
 The typical week defined for Rio de Janeiro, according to the TMYx file, is from December 24th to 31st, presenting an average close to the annual average; Since the city's climate does not show large differences in temperature throughout the seasons, the file does not specify a typical seasonal week. Visibly through Figure \ref{fig 19} (b) and (c), the average radiant temperatures and heat fluxes through the facade with PCM are higher than the results for the resistive thermal insulator – the average radiant temperatures are around 0.3°C higher – validating the high consumption in this case during the month of December for climate projections, a behavior opposite to that presented for the same envelope in the typical meteorological year; for the simulated climate, the average radiant temperature for the case with insulation is about 0.4°C higher than for the case with PCM.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{tq zn3 rj}
     \caption{Hourly curves of Mean Radiant Temperature in Thermal Zone 3 and Heat Flow by conduction on the internal face of the north facade during the typical week in Rio de Janeiro, RJ (ZB8/1A).}
@@ -572,7 +574,7 @@ The typical week defined for Rio de Janeiro, according to the TMYx file, is from
 
 The characteristic physical state of the phase change material, evaluated for the typical week, in the climate projections of 2050 (Figure \ref{fig 20} (a)) and 2080 (Figure \ref{fig 20} (b)) show a constantly liquid physical state, justifying the high use of energy of the month in question and in the other summer months and the heat flow and temperature behaviors expressed in Figure \ref{fig 19}.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{pcm zn3 rj}
     \caption{Hourly behavior of the physical state of the PCM applied to the north façade during a typical week in Rio de Janeiro, RJ (ZB8/1A).}
@@ -585,7 +587,7 @@ Given the high temperatures, even during the typical meteorological year, the hi
 
 The behavior of the monthly heat balance for the south façade resembles the monthly energy consumption illustrated in Figure \ref{fig 21}, especially when observing the envelope with phase change material: as the monthly heat balance denotes loss of thermal energy, the monthly EUI value for the respective building becomes the lowest among the three simulated envelopes, with emphasis on projections of future climates. The Pearson correlation coefficients, for the 2050 and 2080 climate projections, are 0.940 and 0.973, respectively, denoting a very strong correlation between the variables.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{zn1 rj}
     \caption{Monthly net heat balance across the south facade in Rio de Janeiro, RJ (ZB8/1A)}
@@ -594,7 +596,7 @@ The behavior of the monthly heat balance for the south façade resembles the mon
 
 Similar to thermal zone 3, thermal zone 1, observing Figure \ref{fig 22}, presents a higher average radiant temperature results on the facade with phase change material than those presented by the wall with resistive thermal insulation in climate projections. The weekly average for this application is 26.09 and 26.26°C for the climates of 2050 and 2080; in the case of the insulating envelope, the average in these periods reduces to 25.78 and 25.90°C.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{tq zn1 rj}
     \caption{Hourly curves of Mean Radiant Temperature in Thermal Zone 1 and Heat Flow by conduction on the internal face of the south facade during the typical week in Rio de Janeiro, RJ (ZB8/1A).}
@@ -603,7 +605,7 @@ Similar to thermal zone 3, thermal zone 1, observing Figure \ref{fig 22}, presen
 
 According to Figures Figure 5.11 and Figure 5.15 (b) and (c), in December of the projected climates, the energy consumption and heat balance for the envelope with phase change material present superior results compared to the values for the envelope with resistive thermal insulator; although the absence of direct solar irradiation on this surface, the high external temperatures and the low thickness of the 4 cm material, compared to other applications, the PCM is in a liquid state throughout the week of December (Figure 5.17 (b) and (c)), increasing the thermal transmittance of the surface.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{pcm zn1 rj}
     \caption{Hourly behavior of the physical state of the PCM applied to the south façade during a typical week in Rio de Janeiro, RJ (ZB8/1A).}
@@ -615,7 +617,7 @@ According to Figures Figure 5.11 and Figure 5.15 (b) and (c), in December of the
 Similar to other surfaces, the monthly heat balance across the surface corroborates the behavior of monthly energy consumption with air conditioning – see Figure 5.18. The cover without insulating material allows significant heat gains to the return plenum in all months of the year, with values considerably higher than those presented by other envelope constructions; for this coverage composition, Pearson correlation coefficients
 between the monthly heat balance and the monthly EUI are obtained as 0.920 (TMYx), 0.964 (2050) and 0.963 (2080), demonstrating a strong correlation between the metrics.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{plenum curitiba}
     \caption{Monthly net heat balance across the roof facade in Rio de Janeiro, RJ (ZB8/1A)}
@@ -628,7 +630,7 @@ Corroborating the analyzes of the north and south facades, more significantly, t
 thermal insulation in climate projections; the weekly average operating temperature exceeds it by 2°C in 2050 and 2.4°C in the climate projection of 2080. Furthermore, the range of this temperature is also significant,
 contrasting with the other facades. The thermal insulating roof can, regardless of the simulated climate, maintain low levels of heat flow, which guarantees adequate temperatures in the space, reaching a maximum weekly average in the future climate of 2080, with 26.3°C. Again, the various heat flux and temperature peaks, explained in Figure 5.19 (a) for the covering without material, can be justified by the temperature balance between the inner face and the surface core; For the typical meteorological year, this cover produces an average operating temperature of 28.7°C, about 3°C above the others.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{tq plenum curitiba}
     \caption{Hourly curves of Mean Radiant Temperature in the plenum and Heat Flow by conduction on the internal face of the roof facade during the typical winter week in Curitiba, PR (ZB1/3A).}
@@ -637,7 +639,7 @@ contrasting with the other facades. The thermal insulating roof can, regardless 
 
 Although there are 14 cm of PCM on the roof, the material remains in a liquid state during typical weeks simulated with future climate files, as expressed by the curves in Figure 5.20 (b) and (c). This keeps the plenum, more specifically the return air, at high temperatures that are less advantageous for conditioning, which demands more from the HVAC system to remove thermal energy from the mixing air that is blown into the thermal zones.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{pcm plenum curitiba}
     \caption{Hourly behavior of the physical state of the PCM applied to the roof surface during a typical winter week in Curitiba, PR (ZB1/3A).}
