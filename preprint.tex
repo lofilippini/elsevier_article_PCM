@@ -305,7 +305,7 @@ It is worth highlighting, as a limitation of the work, the impossibility of extr
 The morphing process of climate files is carried out using the tool CCWorldWeatherGen, version 1.9. The free tool projects future climate scenarios based on the period from 1961 to 1990 (UNITED KINGDOM, 2022) using data from the global circulation model HadCM3 (Hadley Center Coupled Model version 3), which models atmospheric behavior and oceanic on a global scale; it has a spatial resolution of approximately 300x300 km². Given this low resolution, CCWorldWeatherGen performs a statistical
 process of dynamic downscaling, and obtains the values of the climate variables for each location by averaging the results of four points on the HadCM3 model's spatial grid closest to the real coordinates of the desired location.
 
-The period considered in the model is in accordance with the World Meteorological Organization (WMO, 2021), which establishes an interval of 30 years as the definition of climate behavior; the organization also maintains the recommendation that the period between 1961 and 1990 be taken as a common reference
+The period considered in the model is in accordance with the World Meteorological Organization (WMO, 2021), which establishes an interval of 30 years as the definition of climate behavior; the organization also maintains the recommendation that the period between 1961 and 1990 be taken as a common reference 
 in studies, projections and monitoring of the climate and its anomalies. Data from the HadCM3 model are made available by the IPCC (2022) and the CCWorldWeatherGen tool considers the IPCC A2 emissions scenario to modify climate files. This scenario projects global economic development with regional growth foci, in a heterogeneous world with a growing population, in which fewer measures in favor of sustainable development are effectively applied, however, it is not the worst scenario in terms of emissions (medium- high). CCWorldWeatherGen transforms an .epw file (EnergyPlus Weather) based on the desired extrapolation for the representative years of 2020, 2050 and 2080, according to the projections obtained by the HadCM3 model, each characterizing a defined climate period of 30 years: 2010 to 2039, 2040 to 2069 and 2070 to 2099, respectively.
 
 Regarding climate data for building simulations in the selected cities, Scheller et al. (2015) carried out a study comparing three types of existing climate files for Brazilian cities: TRY (Test Reference Year), SWERA (Solar and Wind Energy Resource Assessment) and INMET (National Institute of Meteorology). In the aforementioned work, several meteorological variables from the archives were evaluated. Through this, it was possible to identify that the INMET files had data acquisition failures in some periods, linked to possible problems in the automatic sensors used. Regarding SWERA data, few Brazilian cities have climate files of this type. Therefore, the use of TRY files becomes necessary; files of this type consider a real year within a 10-year period, treating it as a reference year, without temperature extremes. However, according to Crawley and Lawrie (2015) \cite{crawley2015rethinking}, TRY files do not present complete information about solar radiation data, information that was supplied through a new type of file, the Typical Meteorological Year or TMY. This, in addition to having more information than TRY, works with meteorological data from a longer interval, building a fictitious typical year, with months from different years within a period of 15 years or more analyzed. The authors discourage the use of TRY files and recommend using TMY.
@@ -324,9 +324,23 @@ Rio de Janeiro, RJ & \makecell[l]{BRA\_RJ\_Rio.de.Janeiro-\\Santos.Dumont.AP.837
 \label{tb 2}
 \end{table}
 
-However, it is important to highlight that the original climate files represent a typical meteorological year within the period described in Table \ref{tb 2}, considering all years in the sample. From the beginning of measurements until today, climate change has been part of climate behavior, given that the typical meteorological year encompasses a range of years with this type of behavior, ie, the most recent ones (see Appendix C), and therefore tends to incorporate the climatological profile with the effects of climate change. Thus, as Jentsch et al. attest (2013) \cite{jentsch2013transforming}, developers of the tool, and Belcher, Hacker and Powell (2005) \cite{belcher2005constructing}, developers of the method, it is possible to expect a slight overestimation of the effects of climate change when
-applying the morphing methodology based on more recent climate files, since the technique maintains the behavior of the original data.
-
+However, it is important to highlight that the original climate files represent a typical meteorological year within the period described in Table \ref{tb 2}, considering all years in the sample. From the beginning of measurements until today, climate change has been part of the climate behavior, given that the typical meteorological year encompasses a range of years with this type of behavior, i.e., the most recent ones (Table \ref{tab climate files}), and therefore tends to incorporate the climatological profile with the effects of climate change. Thus, as Jentsch et al. attest (2013) \cite{jentsch2013transforming}, developers of the tool, and Belcher, Hacker and Powell (2005) \cite{belcher2005constructing}, developers of the method, it is possible to expect a slight overestimation of the effects of climate change when applying the morphing methodology based on more recent climate files, since the technique maintains the behavior of the original data.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l l l l l l l|}
+    \hline
+        City & Jan & Feb & Mar & Apr & May & Jun \\
+        Curitiba & 1977 & 1987 & 1977 & 1964 & 1993 & 2008 \\
+        Rio de Janeiro & 1989 & 1991 & 2017 & 1988 & 1981 & 1980 \\
+    \hline
+        City & Jul & Aug & Sep & Oct & Nov & Dec \\
+        Curitiba & 1980 & 1965 & 1986 & 2017 & 1977 & 1990 \\
+        Rio de Janeiro & 1981 & 2001 & 1987 & 1987 & 2001 & 1979 \\
+    \hline
+    \end{tabular}
+    \caption{Reference years of the climate files used to construct the typical meteorological years.}
+    \label{tab climate files}
+    \end{table}
 \subsection{Energy model}
 ASHRAE Standard 90.1 entitled “Energy Standards for Buildings Except Low Rise Residential Buildings” (ASHRAE, 2019), determines the guidelines for the construction and simulation of thermoenergetic reference models, or baseline models, applicable for all climatic regions. The standard defines the thermal parameters of surfaces, minimum efficiency of air conditioning systems, lighting densities and HVAC systems suitable for construction typologies, according to the floor area and their locations. The thermoenergetic model of this study is developed and made available, in its entirety, by the United States Department of Energy (DOE, 2022b), through the Building Energy Codes Program (BECP), which, together with other typologies, are widely used in several studies, being structured in compliance with the aforementioned Standard 90.1. The set of prototypes represents about 75\% of the floor area of new buildings in all North American climates.
 
@@ -364,13 +378,31 @@ In detail, each of the floors is served by a self-contained rooftop unit (or PAC
 Between the floors there are return plenums for the air conditioning systems that serve each of the respective floors and where, in practice, the ducts and fan boxes for each thermal zone are housed; return air from all areas of the floor is blown into the space. In climate region 3A (ZB1, Curitiba) the air supply system on each floor has an economizer cycle (see Appendix B), the activation of which depends on the difference in enthalpy between the external air and the return air: if the enthalpy of the external air is greater than that of the return air, the external air flow rate is fixed at a minimum value, otherwise, the dampers modulate the air flow rates in order to reach the temperature setpoint; This way, less energy is required to condition the supplied air.
 
 \subsection{Phase change material selection and simulation setup}
-The thermoenergetic model used has heating and cooling setpoint values of 21 and 24°C, respectively, which represent temperatures commonly used for activating HVAC systems. The selection of the phase change material, since its implementation aims to reduce energy consumption with air conditioning systems, aims, in short, to guide the temperature of the physical state change according to the operating limits of the air system. conditioning. For this logic and taking as a reference the selected materials and results in some of the previously described works, we chose to use the SP24E inorganic PCM, produced by RubiTherm (2022b). The manufacturer mentions that, for application in buildings, inorganic materials are generally preferred (RUBITHERM, 2022a). The PCM in question presents favorable characteristics for its selection: stable performance during phase change cycles, high latent heat per unit volume, limited subcooling, low flammability; It is non-toxic and capable of being macroencapsulated.
+The thermoenergetic model used has heating and cooling setpoint values of 21 and 24°C, respectively, which represent temperatures commonly used for activating HVAC systems. The selection of the phase change material, since its implementation aims to reduce energy consumption with air conditioning systems, aims, in short, to guide the temperature of the physical state change according to the operating limits of the air system. conditioning. For this logic and taking as a reference the selected materials and results in some of the previously described works, we chose to use the SP24E inorganic PCM, produced by RubiTherm (2022b). The manufacturer mentions that, for application in buildings, inorganic materials are generally preferred (RUBITHERM, 2022a). The PCM in question presents favorable characteristics for its selection: stable performance during phase change cycles, high latent heat per unit volume, limited subcooling, low flammability; it is non-toxic and capable of being macroencapsulated. The PCM data used for the simulations can be seen in Table \ref{tb sp24e data}.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l l l|}
+        \hline
+        Property & Value & Dimension \\
+        Melting temperature interval & 24-24 (peak at 24) & $^oC$ \\
+        Freezing temperature interval & 23-21 (peak at 21) & $^oC$ \\
+        Latent heat ($L$) & 150 & $kJ/kg$ \\
+        Specific heat ($c_p$) & 2 & $kJ/kgK$ \\
+        Solid state density ($\rho_{sol}$) & 1600 & $kg/m^3$ \\
+        Liquid state density ($\rho_{liq}$) & 1500 & $kg/m^3$ \\
+        Thermal conductivity (both phases) ($k$) & 0.5 & $W/mK$ \\
+        \hline
+    \end{tabular}
+    \caption{SP24E data.}%
+    \label{tb sp24e data}
+\end{table}%
 
 The selected PCM is modeled, in EnergyPlus, using class \textit{MaterialProperty:PhaseChangeHisteresys}, capable of modeling the cyclic behavior of the latent phase of materials; the class requests properties of both physical states (see Appendix D). To do so, it is necessary to use the CondFD finite difference algorithm. In agreement with Al-Janabi and Kavgic (2019), due to its robustness and stability, the fully implicit scheme is used, such as the TARP algorithms for internal convective exchanges and the DOE-2 for external convective exchanges. As discretization parameters, the results of Tabares-Velasco, Christensen and Bianchi (2012) were adopted, which validated the values of 0.3 for the discretization constant and 60 time steps per hour, the maximum allowed by EnergyPlus. Such algorithms and configurations are not necessary for simulating envelopes without PCM, but are maintained in favor of standardizing the numerical methodology between simulations. Tolerances for numerical convergences were kept as the software default values.
 
 The thickness of the PCM used on each surface is equivalent to the thickness of the insulation applied in each of the respective construction systems, since the aim is to geometrically replace one with the other. According to the models developed by DOE (2022b), the thermal resistances ($R$) of the insulators used in each model are visible in Table \ref{tb 4}; It should be noted that, in thermoenergetic models, insulators are represented only through their thermal resistance values equivalent, without the definition of a physical material, that is, without thermal mass.
 
-Also according to DOE (2022c), the main thermal insulators used in civil construction are cellulose, glass fiber and mineral fiber, which have a similar thermal conductivity ($k$) and can be approximated by $0.04$ $W/mK$ (POPESCU, 2017 ). The theoretical thickness of the insulating material ($e$) is given by multiplying the thermal resistance ($R$) and the thermal conductivity of that material. This thickness is also the thickness of the PCM that will replace the insulator. Table \ref{tb 4} illustrates integer values – given the need for discreet encapsulation – of the thickness of the PCM applied to each surface according to its climate zone; to illustrate envelope constructions, see Appendix E.
+Also according to DOE (2022c), the main thermal insulators used in civil construction are cellulose, glass fiber and mineral fiber, which have a similar thermal conductivity ($k$) and can be approximated by $0.04$ $W/mK$ (POPESCU, 2017 ). The theoretical thickness of the insulating material ($e$) is given by multiplying the thermal resistance ($R$) and the thermal conductivity of that material. This thickness is also the thickness of the PCM that will replace the insulator. 
 \begin{table}[H]
     \centering
     \begin{tabular}{|c cc cc|}
@@ -385,6 +417,16 @@ Also according to DOE (2022c), the main thermal insulators used in civil constru
     thickness.}%
     \label{tb 4}%
 \end{table}%
+Table \ref{tb 4} presents the thicknesses of the PCM applied to each surface according to its climate zone in integer values, given the need for discrete encapsulation; Figure \ref{fig 6.1} illustrates the generic constructions of the roof and facade surfaces external, highlighting the layer of material – insulation or PCM – that is changed between simulations.%
+\begin{figure}[H]
+    \centering
+    \subfloat[\centering Roof section.]{{\includegraphics[width=6cm]{roof section} }}%}
+    \qquad
+    \subfloat[\centering Wall section.]{{\includegraphics[width=6cm]{wall section} }}%}
+    \caption{Detailing of surface constructions, out of scale.}
+    \label{fig 6.1}%
+\end{figure}%
+
 \section{Results and discussion}
 A total of 18 simulations were carried out: 9 simulations for each bioclimatic zone, divided into simulations varying the composition of the envelope (resistive thermal insulation, temperature change material), phase and no material) for each of the climate files (original TMYx, 2050 projection and 2080 projection). The morphing process was performed using the CCWorldWeatherGen tool, generating climate files for the representative years 2050 and 2080 from TMYx. The average duration of simulations using EnergyPlus with thermal insulation or no material was approximately 30 to 35 minutes, while when the phase change material was applied, the average simulation time increased to approximately 40 to 45 minutes; the simulations were carried out using an i5-8250U processor and 8 GB of DDR4 RAM.
 
@@ -399,13 +441,13 @@ In relation to the building, the behaviors of the total monthly energy consumpti
     \begin{tabular}{|l c c c|}
         \hline
         \multicolumn{4}{|l|}{Curitiba, PR - Bioclimatic Zone 1 / Climatic Region 3A} \\
-        Simulated climate & NOM $[kWh/m^2]$ & INS $[kWh/m^2]$ & $PCM$ $[kWh/m^2]$ \\
+        Simulated climate & NOM $[kWh/m^2]$ & INS $[kWh/m^2]$ & PCM $[kWh/m^2]$ \\
         TMYx & 37.17 & 21.17 & 20.35 \\
         2050 Projection & 40.49 & 29.15 & 26.76 \\
         2080 Projection & 48.99 & 35.93 & 32.34 \\
         \hline
         \multicolumn{4}{|l|}{Rio de Janeiro, RJ - Bioclimatic Zone 8 / Climatic Region 1A} \\
-        Simulated climate & NOM $[kWh/m^2]$ & INS $[kWh/m^2]$ & $PCM$ $[kWh/m^2]$ \\
+        Simulated climate & NOM $[kWh/m^2]$ & INS $[kWh/m^2]$ & PCM $[kWh/m^2]$ \\
         TMYx & 52.38 & 41.27 & 38.15 \\
         2050 Projection & 69.23 & 50.86 & 57.03 \\
         2080 Projection & 80.57 & 58.38 & 70.48 \\
