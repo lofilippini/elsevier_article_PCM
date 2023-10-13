@@ -1,0 +1,222 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{epe}
+{Empresa de Pesquisa Energ{\'e}tica}, Atlas da eficiência energética brasil
+  2021,
+  \url{https://www.epe.gov.br/pt/publicacoes-dadosabertos/publicacoes/atlas-da-eficiencia-energetica-brasil-2021},
+  accessed: 2023-02-16 (2022).
+
+\bibitem{yuksek2017energy}
+I.~Y{\"u}ksek, T.~T. Karadayi, Energy-efficient building design in the context
+  of building life cycle, Energy efficient buildings 10 (2017) 93--123.
+
+\bibitem{liu2018review}
+Z.~Liu, Z.~J. Yu, T.~Yang, D.~Qin, S.~Li, G.~Zhang, F.~Haghighat, M.~M.
+  Joybari, A review on macro-encapsulated phase change material for building
+  envelope applications, Building and Environment 144 (2018) 281--294.
+
+\bibitem{energyplus2019}
+{U. S. Department of Energy}, Energyplus, version 9.2,
+  \url{https://energyplus.net/}, accessed: 2022-07-02 (2019).
+
+\bibitem{jentsch2013transforming}
+M.~F. Jentsch, P.~A. James, L.~Bourikas, A.~S. Bahaj, Transforming existing
+  weather data for worldwide locations to enable energy and building
+  performance simulation under future climates, Renewable energy 55 (2013)
+  514--524.
+
+\bibitem{ccworldweathergen}
+{University of Southampton}, Climatechangeworldweathergenerator, version 1.9,
+  \url{https://energy.soton.ac.uk/ccworldweathergen/}, accessed: 2022-11-20
+  (2017).
+
+\bibitem{yuan2022thermal}
+F.~Yuan, R.~Yao, S.~Sadrizadeh, B.~Li, G.~Cao, S.~Zhang, S.~Zhou, H.~Liu,
+  A.~Bogdan, C.~Croitoru, et~al., Thermal comfort in hospital buildings--a
+  literature review, Journal of Building Engineering 45 (2022) 103463.
+
+\bibitem{fang2014effect}
+Z.~Fang, N.~Li, B.~Li, G.~Luo, Y.~Huang, The effect of building envelope
+  insulation on cooling energy consumption in summer, Energy and Buildings 77
+  (2014) 197--205.
+
+\bibitem{d2022will}
+D.~D'Agostino, D.~Parker, I.~Epifani, D.~Crawley, L.~Lawrie, How will future
+  climate impact the design and performance of nearly zero energy buildings
+  (nzebs)?, Energy 240 (2022) 122479.
+
+\bibitem{baglivo2022long}
+C.~Baglivo, P.~M. Congedo, G.~Murrone, D.~Lezzi, Long-term predictive energy
+  analysis of a high-performance building in a mediterranean climate under
+  climate change, Energy 238 (2022) 121641.
+
+\bibitem{zilberberg2021impact}
+E.~Zilberberg, P.~Trapper, I.~Meir, S.~Isaac, The impact of thermal mass and
+  insulation of building structure on energy efficiency, Energy and Buildings
+  241 (2021) 110954.
+
+\bibitem{rathore2022thermal}
+P.~K.~S. Rathore, N.~K. Gupta, D.~Yadav, S.~K. Shukla, S.~Kaul, Thermal
+  performance of the building envelope integrated with phase change material
+  for thermal energy storage: an updated review., Sustainable Cities and
+  Society 79 (2022) 103690.
+
+\bibitem{wang2022critical}
+X.~Wang, W.~Li, Z.~Luo, K.~Wang, S.~P. Shah, A critical review on phase change
+  materials (pcm) for sustainable and energy efficient building: Design,
+  characteristic, performance and application, Energy and Buildings 260 (2022)
+  111923.
+
+\bibitem{olivo2021impact}
+L.~Olivo~Filippini, G.~Sartori, M.~Carvalho Ayres~Torres, The impact of pcm
+  applications on thermal comfort in standardized preschool designs in 2
+  brazilian climatic zones, in: Building Simulation 2021, Vol.~17, IBPSA, 2021,
+  pp. 2749--2756.
+
+\bibitem{abnt15220}
+ABNT, {NBR} 15220-3: Desempenho Térmico de Edificações - Parte 3: Zoneamento
+  bioclimático brasileiro e diretrizes construtivas para habitações
+  unifamiliares de interesse social., ABNT, Rio de Janeiro, 2005.
+
+\bibitem{kalbasi2022buildings}
+R.~Kalbasi, P.~Hassani, Buildings with less hvac power demand by incorporating
+  pcm into envelopes taking into account ashrae climate classification, Journal
+  of Building Engineering 51 (2022) 104303.
+
+\bibitem{carlucci2021phase}
+F.~Carlucci, A.~Cannavale, A.~A. Triggiano, A.~Squicciarini, F.~Fiorito, phase
+  change material integration in building envelopes in different building types
+  and climates: Modeling the benefits of active and passive strategies, Applied
+  Sciences 11~(10) (2021) 4680.
+
+\bibitem{melo2015thermal}
+A.~P. Melo, R.~Lamberts, R.~Versage, Y.~Zhang, Is thermal insulation always
+  beneficial in hot climate?, in: Building Simulation 2015, Vol.~14, IBPSA,
+  2015, pp. 1353--1360.
+
+\bibitem{kalbasi2022one}
+R.~Kalbasi, M.~Afrand, Which one is more effective to add to building envelope:
+  Phase change material, thermal insulation, or their combination to meet
+  zero-carbon-ready buildings?, Journal of Cleaner Production 367 (2022)
+  133032.
+
+\bibitem{suresh2022phase}
+C.~Suresh, T.~K. Hotta, S.~K. Saha, Phase change material incorporation
+  techniques in building envelopes for enhancing the building thermal comfort-a
+  review, Energy and Buildings 268 (2022) 112225.
+
+\bibitem{paroutoglou2019pcm}
+E.~Paroutoglou, A.~Afshari, N.~C. Bergs{\o}e, P.~Fojan, G.~Hultmark, A pcm
+  based cooling system for office buildings: a state of the art review, in:
+  CLIMA 2019: REHVA 13th HVAC World Congress, EDP Sciences, 2019, pp. 1--8.
+
+\bibitem{veerakumar2016phase}
+C.~Veerakumar, A.~Sreekumar, Phase change material based cold thermal energy
+  storage: Materials, techniques and applications--a review, international
+  journal of refrigeration 67 (2016) 271--289.
+
+\bibitem{akeiber2016review}
+H.~Akeiber, P.~Nejat, M.~Z.~A. Majid, M.~A. Wahid, F.~Jomehzadeh, I.~Z.
+  Famileh, J.~K. Calautit, B.~R. Hughes, S.~A. Zaki, A review on phase change
+  material (pcm) for sustainable passive cooling in building envelopes,
+  Renewable and Sustainable Energy Reviews 60 (2016) 1470--1497.
+
+\bibitem{zastawna2020novel}
+A.~Zastawna-Rumin, T.~Kisilewicz, U.~Berardi, Novel simulation algorithm for
+  modeling the hysteresis of phase change materials, Energies 13~(5) (2020)
+  1200.
+
+\bibitem{al2019application}
+A.~Al-Janabi, M.~Kavgic, Application and sensitivity analysis of the phase
+  change material hysteresis method in energyplus: A case study, Applied
+  Thermal Engineering 162 (2019) 114222.
+
+\bibitem{engreference}
+U.~S. {Department of Energy}, EnergyPlus Engineering Reference (2019).
+
+\bibitem{pakowski2007fundamentals}
+Z.~Pakowski, Fundamentals of heat and mass transfer, frank p incropera, david p
+  dewitt, theodore l bergman, adrienne s lavine, j. wiley \& sons, hoboken nj
+  (2007), 997 pp (2007).
+
+\bibitem{belcher2005constructing}
+S.~E. Belcher, J.~N. Hacker, D.~S. Powell, Constructing design weather data for
+  future climates, Building services engineering research and technology 26~(1)
+  (2005) 49--61.
+
+\bibitem{buildingprot}
+{U. S. Department of Energy}, Prototype building models,
+  \url{https://www.energycodes.gov/prototype-building-models\#Weather},
+  accessed: 2022-11-10 (2022).
+
+\bibitem{ashrae9012019}
+{ANSI}/{ASHRAE}/{IES}, Standard 90.1-2019 -- Energy Standard for Buildings
+  Except Low-Rise Residential Buildings, ASHRAE, Atlanta, 2019.
+
+\bibitem{ibge}
+{Instituto Brasileiro de Geografia e Estatística}, População estimada do
+  país chega a 213,3 milhões de habitantes em 2021,
+  \url{https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/31458-populacao-estimada-do-pais-chega-a-213-3-milhoes-de-habitantes-em-2021\#:\~:text=O\%20munic\%C3\%ADpio\%20de\%20S\%C3\%A3o\%20Paulo,(2\%2C7\%20milh\%C3\%B5es)},
+  accessed: 2022-11-28 (2021).
+
+\bibitem{wmo}
+{World Meteorological Organization}, Updated 30-year reference period reflects
+  changing climate (2021).
+
+\bibitem{ipcc}
+{Intergovernmental Panel on Climate Change}, Hadcm3 climate scenario data --
+  data distribution centre,
+  \url{https://www.ipcc-data.org/sim/gcm\_clim/SRES\_TAR/hadcm3\_download.html},
+  accessed: 2022-11-28 (2001).
+
+\bibitem{lamberts2015analise}
+R.~Lamberts, A.~Melo, M.~Sorgato, C.~Scheller, An{\'a}lise de arquivos
+  clim{\'a}ticos para a simula{\c{c}}{\~a}o do desempenho energ{\'e}tico de
+  edifica{\c{c}}{\~o}es, Florian{\'o}polis: Laborat{\'o}rio de Efici{\^e}ncia
+  Energ{\'e}tica em Edifica{\c{c}}{\~o}es (2015).
+
+\bibitem{crawley2015rethinking}
+D.~B. Crawley, L.~K. Lawrie, et~al., Rethinking the tmy: is the `typical'
+  meteorological year best for building performance simulation, in: Conference:
+  Building Simulation, 2015, pp. 2655--2662.
+
+\bibitem{pbeedifica}
+{Programa Brasileiro de Etiquetagem}, Arquivos clim{\'a}ticos {INMET} 2018,
+  \url{http://pbeedifica.com.br/arquivosclimaticos/inmet2018}, accessed:
+  2023-01-10 (2020).
+
+\bibitem{sp24e}
+{RUBITHERM}, {SP24E Data Sheet},
+  \url{https://www.rubitherm.eu/media/products/datasheets/Techdata\_,SP24E\_EN\_12072022.PDF},
+  accessed: 2022-09-18 (2017).
+
+\bibitem{rubithermbuild}
+{RUBITHERM}, Buildings,
+  \url{https://www.rubitherm.eu/en/applications/building}, accessed: 2022-12-01
+  (2022).
+
+\bibitem{tabares2012verification}
+P.~C. Tabares-Velasco, C.~Christensen, M.~Bianchi, Verification and validation
+  of energyplus phase change material model for opaque wall assemblies,
+  Building and Environment 54 (2012) 186--196.
+
+\bibitem{insulation}
+{U. S. Department of Energy}, Types of insulation,
+  \url{https://www.energy.gov/energysaver/types-insulation}, accessed:
+  2022-12-10 (2021).
+
+\bibitem{jones2017performance}
+D.~Jones, C.~Brischke, Performance of bio-based building materials, Woodhead
+  Publishing, 2017.
+
+\bibitem{kishore2021enhancing}
+R.~A. Kishore, M.~V. Bianchi, C.~Booten, J.~Vidal, R.~Jackson, Enhancing
+  building energy performance by effectively using phase change material and
+  dynamic insulation in walls, Applied Energy 283 (2021) 116306.
+
+\end{thebibliography}

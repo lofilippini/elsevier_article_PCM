@@ -1,0 +1,334 @@
+PWD c:\Users\filip\OneDrive\Documentos\Research\PCMs and climate change (TCC)
+INPUT C:\Users\filip\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\filip\OneDrive\Documentos\Research\PCMs and climate change (TCC)\preprint.tex
+OUTPUT preprint.log
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\elsarticle\elsarticle.cls
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\elsarticle\elsarticle.cls
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT .\preprint.spl
+INPUT .\preprint.spl
+INPUT preprint.spl
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
+OUTPUT preprint.spl
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\subfig\subfig.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-elsarticle.sto
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-elsarticle.sto
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption-elsarticle.sto
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT .\preprint.aux
+INPUT .\preprint.aux
+INPUT preprint.aux
+OUTPUT preprint.aux
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+OUTPUT preprint.pdf
+INPUT C:\Users\filip\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti7.tfm
+INPUT .\images\pcm working ranges.jpg
+INPUT .\images\pcm working ranges.jpg
+INPUT .\images\pcm working ranges.jpg
+INPUT .\images\pcm working ranges.jpg
+INPUT .\images\pcm working ranges.jpg
+INPUT .\images\pcm working ranges.jpg
+INPUT .\images\hysteresis curve.jpg
+INPUT .\images\hysteresis curve.jpg
+INPUT .\images\hysteresis curve.jpg
+INPUT .\images\hysteresis curve.jpg
+INPUT .\images\hysteresis curve.jpg
+INPUT .\images\hysteresis curve.jpg
+INPUT .\images\system nodes.jpg
+INPUT .\images\system nodes.jpg
+INPUT .\images\system nodes.jpg
+INPUT .\images\system nodes.jpg
+INPUT .\images\system nodes.jpg
+INPUT .\images\system nodes.jpg
+INPUT .\images\discretization.jpg
+INPUT .\images\discretization.jpg
+INPUT .\images\discretization.jpg
+INPUT .\images\discretization.jpg
+INPUT .\images\discretization.jpg
+INPUT .\images\discretization.jpg
+INPUT .\images\geometry.jpg
+INPUT .\images\geometry.jpg
+INPUT .\images\geometry.jpg
+INPUT .\images\geometry.jpg
+INPUT .\images\geometry.jpg
+INPUT .\images\geometry.jpg
+INPUT .\images\thermal zones.jpg
+INPUT .\images\thermal zones.jpg
+INPUT .\images\thermal zones.jpg
+INPUT .\images\thermal zones.jpg
+INPUT .\images\thermal zones.jpg
+INPUT .\images\thermal zones.jpg
+INPUT .\images\building division.jpg
+INPUT .\images\building division.jpg
+INPUT .\images\building division.jpg
+INPUT .\images\building division.jpg
+INPUT .\images\building division.jpg
+INPUT .\images\building division.jpg
+INPUT .\images\roof section.jpg
+INPUT .\images\roof section.jpg
+INPUT .\images\roof section.jpg
+INPUT .\images\roof section.jpg
+INPUT .\images\roof section.jpg
+INPUT .\images\roof section.jpg
+INPUT .\images\wall section.jpg
+INPUT .\images\wall section.jpg
+INPUT .\images\wall section.jpg
+INPUT .\images\wall section.jpg
+INPUT .\images\wall section.jpg
+INPUT .\images\wall section.jpg
+INPUT .\images\EUI comp Curitiba.png
+INPUT .\images\EUI comp Curitiba.png
+INPUT .\images\EUI comp Curitiba.png
+INPUT .\images\EUI comp Curitiba.png
+INPUT .\images\EUI comp Curitiba.png
+INPUT .\images\EUI comp Curitiba.png
+INPUT .\images\zn3 curitiba.png
+INPUT .\images\zn3 curitiba.png
+INPUT .\images\zn3 curitiba.png
+INPUT .\images\zn3 curitiba.png
+INPUT .\images\zn3 curitiba.png
+INPUT .\images\zn3 curitiba.png
+INPUT .\images\tq zn3 curitiba.png
+INPUT .\images\tq zn3 curitiba.png
+INPUT .\images\tq zn3 curitiba.png
+INPUT .\images\tq zn3 curitiba.png
+INPUT .\images\tq zn3 curitiba.png
+INPUT .\images\tq zn3 curitiba.png
+INPUT .\images\pcm zn3 curitiba.png
+INPUT .\images\pcm zn3 curitiba.png
+INPUT .\images\pcm zn3 curitiba.png
+INPUT .\images\pcm zn3 curitiba.png
+INPUT .\images\pcm zn3 curitiba.png
+INPUT .\images\pcm zn3 curitiba.png
+INPUT .\images\zn1 curitiba.png
+INPUT .\images\zn1 curitiba.png
+INPUT .\images\zn1 curitiba.png
+INPUT .\images\zn1 curitiba.png
+INPUT .\images\zn1 curitiba.png
+INPUT .\images\zn1 curitiba.png
+INPUT .\images\tq zn1 curitiba.png
+INPUT .\images\tq zn1 curitiba.png
+INPUT .\images\tq zn1 curitiba.png
+INPUT .\images\tq zn1 curitiba.png
+INPUT .\images\tq zn1 curitiba.png
+INPUT .\images\tq zn1 curitiba.png
+INPUT .\images\pcm zn1 curitiba.png
+INPUT .\images\pcm zn1 curitiba.png
+INPUT .\images\pcm zn1 curitiba.png
+INPUT .\images\pcm zn1 curitiba.png
+INPUT .\images\pcm zn1 curitiba.png
+INPUT .\images\pcm zn1 curitiba.png
+INPUT .\images\plenum curitiba.png
+INPUT .\images\plenum curitiba.png
+INPUT .\images\plenum curitiba.png
+INPUT .\images\plenum curitiba.png
+INPUT .\images\plenum curitiba.png
+INPUT .\images\plenum curitiba.png
+INPUT .\images\tq plenum curitiba.png
+INPUT .\images\tq plenum curitiba.png
+INPUT .\images\tq plenum curitiba.png
+INPUT .\images\tq plenum curitiba.png
+INPUT .\images\tq plenum curitiba.png
+INPUT .\images\tq plenum curitiba.png
+INPUT .\images\pcm plenum curitiba.png
+INPUT .\images\pcm plenum curitiba.png
+INPUT .\images\pcm plenum curitiba.png
+INPUT .\images\pcm plenum curitiba.png
+INPUT .\images\pcm plenum curitiba.png
+INPUT .\images\pcm plenum curitiba.png
+INPUT .\images\EUI comp rj.png
+INPUT .\images\EUI comp rj.png
+INPUT .\images\EUI comp rj.png
+INPUT .\images\EUI comp rj.png
+INPUT .\images\EUI comp rj.png
+INPUT .\images\EUI comp rj.png
+INPUT .\images\zn3 rj.png
+INPUT .\images\zn3 rj.png
+INPUT .\images\zn3 rj.png
+INPUT .\images\zn3 rj.png
+INPUT .\images\zn3 rj.png
+INPUT .\images\zn3 rj.png
+INPUT .\images\tq zn3 rj.png
+INPUT .\images\tq zn3 rj.png
+INPUT .\images\tq zn3 rj.png
+INPUT .\images\tq zn3 rj.png
+INPUT .\images\tq zn3 rj.png
+INPUT .\images\tq zn3 rj.png
+INPUT .\images\pcm zn3 rj.png
+INPUT .\images\pcm zn3 rj.png
+INPUT .\images\pcm zn3 rj.png
+INPUT .\images\pcm zn3 rj.png
+INPUT .\images\pcm zn3 rj.png
+INPUT .\images\pcm zn3 rj.png
+INPUT .\images\zn1 rj.png
+INPUT .\images\zn1 rj.png
+INPUT .\images\zn1 rj.png
+INPUT .\images\zn1 rj.png
+INPUT .\images\zn1 rj.png
+INPUT .\images\zn1 rj.png
+INPUT .\images\tq zn1 rj.png
+INPUT .\images\tq zn1 rj.png
+INPUT .\images\tq zn1 rj.png
+INPUT .\images\tq zn1 rj.png
+INPUT .\images\tq zn1 rj.png
+INPUT .\images\tq zn1 rj.png
+INPUT .\images\pcm zn1 rj.png
+INPUT .\images\pcm zn1 rj.png
+INPUT .\images\pcm zn1 rj.png
+INPUT .\images\pcm zn1 rj.png
+INPUT .\images\pcm zn1 rj.png
+INPUT .\images\pcm zn1 rj.png
+INPUT .\images\plenum curitiba.png
+INPUT .\images\plenum curitiba.png
+INPUT .\images\plenum curitiba.png
+INPUT .\images\tq plenum curitiba.png
+INPUT .\images\tq plenum curitiba.png
+INPUT .\images\tq plenum curitiba.png
+INPUT .\images\pcm plenum curitiba.png
+INPUT .\images\pcm plenum curitiba.png
+INPUT .\images\pcm plenum curitiba.png
+INPUT .\preprint.bbl
+INPUT .\preprint.bbl
+INPUT preprint.bbl
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
+INPUT preprint.aux
+INPUT C:\Users\filip\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\filip\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti7.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti7.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Users\filip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
