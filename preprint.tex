@@ -283,9 +283,8 @@ To consider the hysteresis phenomenon, the software requires thermodynamic infor
 
 \subsection{\textit{Morphing} procedure} %revisar
 The fundamental \textit{morphing} process changes the original climate variables based on the climate projections of a Global Circulation Model (GCM), but it maintains the meteorological behavior of the base period for modification (baseline). The form of the baseline climate depends on the data projected in the climate change scenario. The developed method uses scenarios that list changes in monthly mean weather variables \cite{belcher2005constructing}. Thus, the baseline climate behavior is calculated separately for each month using 
-
 \begin{equation}
-\langle p_0 \rangle _m = \frac{1}{24\,d_m\,N}\sum_{N \text{ years}}\sum_{\text{month } m}^{M}p_0
+\langle p_0 \rangle _m = \frac{1}{24\,d_m\,N}\sum_{N}\sum_{m}p_0
 \label{eq 9}
 \end{equation}
 where the variable $p_0$ denotes the present-day weather record for each month $m$. The climatological reference of this variable in each month is expressed by $\langle p_0 \rangle _m$, defined as the average of $p_0$ for the month $m$ in all the $N$ years of the sample. The number of days in each month is represented by $d_m$ and the hourly average of the variable by $24$. The $\langle p_0 \rangle _m$ is the reference for direct comparison with the equivalent variable in the climate projections. Depending on the result of this comparison, only one of the operations is applied 
@@ -336,7 +335,7 @@ To evaluate the impact of the envelope in different climatic contexts, cities re
 
 \begin{table}[H]
     \centering
-    \begin{tabular}{c c l}
+    \begin{tabular}{@{} ccl @{}}
         \toprule
         ABNT Bioclimatic Zone & 
         ASHRAE Climatic Region & 
@@ -362,12 +361,16 @@ Regarding climate data for building simulations in the selected cities, a paper 
 Given considerations and recommendations \cite{crawley2015rethinking, wmo}, one should opt for TMY-type files from older periods or a larger sample of years to ensure the reliability of the morphing process and the construction of realistic climate scenarios. In this sense, the authors of the present research chose to use the TMYx files, which construct typical meteorological years based on the entire existing collection period, made available by the Brazilian Building Labeling Program \cite{pbeedifica}. The original climate files' names are shown in Table \ref{tb:baseline climates}, and the data sampling period. 
 \begin{table}[H]
     \centering
-    \begin{tabular}{lll}
+    \begin{tabular}{ @{} lll @{} }
         \toprule
-        City & Climate file & Period \\
+            City & Climate file & Period \\
         \midrule
-        Curitiba, PR & \texttt{BRA\_PR\_Curitiba-Pena.Intl.AP.838400\_TMYx.epw} & \text{1961-2017} \\
-        Rio de Janeiro, RJ & \texttt{BRA\_RJ\_Rio.de.Janeiro-Santos.Dumont.AP.837550\_TMYx.epw} & \text{1973-2017}\\
+            \makecell[l]{Curitiba, PR \\ {}}& 
+            \makecell[l]{\texttt{BRA\_PR\_Curitiba} \\ \texttt{-Pena.Intl.AP.838400\_TMYx.epw}} & 
+            \makecell[l]{\text{1961-2017} \\ {}} \\[2.5ex]
+            \makecell[l]{Rio de Janeiro, RJ \\ {}} & 
+            \makecell[l]{\texttt{BRA\_RJ\_Rio.de.Janeiro} \\ \texttt{-Santos.Dumont.AP.837550\_TMYx.epw}} & 
+            \makecell[l]{\text{1973-2017} \\ {}}\\
         \bottomrule
     \end{tabular}
     \caption{Base climate files for each representative city.}
@@ -375,9 +378,10 @@ Given considerations and recommendations \cite{crawley2015rethinking, wmo}, one 
 \end{table}
 
 However, it is important to highlight that the original climate files represent a typical meteorological year within the period described in Table \ref{tb:baseline climates}, considering all years in the sample. From the beginning of measurements until today, climate change has already affected the weather's behavior and given that the TMY encompasses a range of years with more prominent climate change effects -- the most recent ones seen in Table \ref{tb:tmyx months} -- the resultant typical year tends to incorporate the climatological profiles with this effects. Hence, it is possible to expect a slight overestimation of the effects of climate change when applying the \textit{morphing} methodology based on more recent climate files \cite{jentsch2013transforming, belcher2005constructing}, since the technique maintains the behavior of the original data. 
+
 \begin{table}[H]
     \centering
-    \begin{tabular}{l l l l l l l}
+    \begin{tabular}{ @{} lllllll @{} }
     \toprule
         City & Jan & Feb & Mar & Apr & May & Jun \\
         \midrule
@@ -408,7 +412,7 @@ The models used in both bioclimatic zones are identical regarding the type of ai
 \end{figure}%
 \begin{table}[H]
     \centering
-    \begin{tabular}{c c l}
+    \begin{tabular}{@{} ccl @{}}
         \toprule
         \makecell[l]{Bioclimatic Zone\\(ASHRAE Climatic Region)} 
         & $U_{\text{roof}} \left[ \si{\watt\per\square\metre\per\kelvin} \right]$ 
@@ -442,7 +446,7 @@ The energy model used has heating and cooling setpoint values of \SI{21}{\celsiu
 
 \begin{table}[H]
     \centering
-    \begin{tabular}{l l l}
+    \begin{tabular}{@{} lll @{}}
         \toprule
         Property & Value & Dimension \\
         \midrule
@@ -466,7 +470,7 @@ The thickness of the PCM used on each surface is equivalent to the thickness of 
 It should be noted that, in the energy models, insulators are represented only through their thermal resistance values, without the definition of physical material, that is, without thermal mass. Fiberglass, mineral wool, and cellulose are among the most common thermal insulation materials used in civil construction \cite{insulation}, which have a similar thermal conductivity ($k$) and can be approximated by \SI{0.04}{{\watt\per\metre\kelvin}} \cite{jones2017performance}. The theoretical thickness ($e$) of the insulating material is given by multiplying the thermal resistance ($R$) and the thermal conductivity of the same material ($k$). This thickness is also the thickness of the PCM that will replace the insulator. 
 \begin{table}[H]
     \centering
-    \begin{tabular}{c cc cc}
+    \begin{tabular}{@{} ccccc @{}}
         \toprule
         & \multicolumn{2}{c}{Roof} & 
         \multicolumn{2}{c}{External Wall} \\
@@ -516,7 +520,7 @@ Building-wise, the total monthly energy consumption with the modeled HVAC system
 
 \begin{table}[H]
 \centering
-    \begin{tabular}{lccc}
+    \begin{tabular}{@{} lccc @{}}
         \toprule
         Simulated climate & 
         NOM $\left[ \si{\kWh\per\square\metre} \right]$ & 
@@ -534,7 +538,7 @@ Building-wise, the total monthly energy consumption with the modeled HVAC system
 
 \begin{table}[H]
 \centering
-    \begin{tabular}{lccc}
+    \begin{tabular}{@{} lccc @{}}
         \toprule
         Simulated climate & 
         NOM $\left[ \si{\kWh\per\square\metre} \right]$ & 
@@ -575,7 +579,7 @@ The results demonstrate lower EUI values for the PCM envelope compared to the ot
             TMYx & -0.112 & 0.597 & -0.763 & -0.410 & -0.282 & 0.794 \\
             2050 projection & -0.134 & 0.271 & -0.121 & -0.282 & -0.125 & 0.815 \\
             2080 projection & -0.282 & 0.085 & -0.353 & -0.287 & -0.135 & 0.443 \\
-              \bottomrule
+            \bottomrule
         \end{tabularx}%
         \caption{Pearson Correlation Coefficients between monthly HVAC EUI and envelope net heat balance: north façade}
         \label{tb:pearson north}
