@@ -1,10 +1,12 @@
 *
 !README
-!preprint.tex
-!preprint.pdf
+!manuscript.tex
 !images/
 !images/*
 !elsarticle.dtx
 !elsarticle.ins
 !refs.bib
 !*bst
+!*docx
+!*ppt
+!*pdf
